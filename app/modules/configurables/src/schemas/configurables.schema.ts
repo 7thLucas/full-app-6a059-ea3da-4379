@@ -71,5 +71,23 @@ export const configurableSchemas: ConfigurableSchemas = {
         },
       ],
     },
+    {
+      fieldName: "welcomeMessage",
+      type: "string",
+      required: false,
+      label: "Welcome Message",
+    },
+    {
+      fieldName: "messagePlaceholder",
+      type: "string",
+      required: false,
+      label: "Message Input Placeholder",
+    },
+    {
+      fieldName: "backgroundColor",
+      type: "color",
+      required: false,
+      label: "Background Color",
+    },
   ],
 };
